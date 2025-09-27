@@ -1,0 +1,12 @@
+python train_detector.py \
+    --database=columbia \
+    --detector=mantranet \
+    --input_size=512 \
+    --weight_save_path= \
+    --detector_weight= \
+    --log_file= \
+    --epoch=200 \
+    --batch=2 \
+    --lr=0.0002 \
+    --seed=2023 \
+    --gpu_id=3

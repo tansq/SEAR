@@ -1,0 +1,16 @@
+python train_v2.py \
+    --database=nist \
+    --detector=locatenet \
+    --block_type=vgg \
+    --input_size=512 \
+    --detector_weight= \
+    --weight_save_path= \
+    --check_save_path= \
+    --log_file=  \
+    --epoch=200 \
+    --batch=2 \
+    --lr=0.0002 \
+    --bce_weight=10 \
+    --hinge_weight=1 \
+    --seed=2022 \
+    --gpu_id=0

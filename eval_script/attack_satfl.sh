@@ -1,0 +1,13 @@
+python attack_detector.py \
+    --database=coverage \
+    --detector=locatenet \
+    --attack=fgsm \
+    --target=0 \
+    --input_size=512 \
+    --minclip=-1 \
+    --maxclip=1 \
+    --save_img=1 \
+    --detector_weight= \
+    --generator_weight= \
+    --save_path= \
+    --gpu_id=0

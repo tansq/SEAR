@@ -1,0 +1,15 @@
+python train_advgan.py \
+    --database=columbia \
+    --detector=mantranet \
+    --input_size=512 \
+    --detector_weight= \
+    --weight_save_path= \
+    --check_save_path= \
+    --log_file= \
+    --epoch=200 \
+    --batch=1 \
+    --lr=0.0002 \
+    --alpha=10 \
+    --beta=1 \
+    --seed=2023 \
+    --gpu_id=3

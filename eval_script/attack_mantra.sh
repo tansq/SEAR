@@ -1,0 +1,13 @@
+python attack_detector.py \
+    --database=casia1 \
+    --detector=mantranet \
+    --attack=advgan \
+    --target=0 \
+    --input_size=256 \
+    --minclip=-1 \
+    --maxclip=1 \
+    --save_img=1 \
+    --detector_weight= \
+    --generator_weight= \
+    --save_path= \
+    --gpu_id=0

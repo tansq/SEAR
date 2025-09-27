@@ -1,0 +1,11 @@
+python train_detector.py \
+    --database=columbia \
+    --detector=span \
+    --input_size=512 \
+    --weight_save_path= \
+    --log_file= \
+    --epoch=300 \
+    --batch=1 \
+    --lr=0.0002 \
+    --seed=2023 \
+    --gpu_id=0

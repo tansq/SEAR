@@ -1,0 +1,17 @@
+python train_dd.py \
+    --database=imd \
+    --target_model=locatenet \
+    --block_type=vgg \
+    --input_size=512 \
+    --target_weight= \
+    --weight_save_path= \
+    --check_save_path= \
+    --log_file= \
+    --epoch=200 \
+    --batch=2 \
+    --lr=0.0002 \
+    --bce_weight=20 \
+    --hinge_weight=1 \
+    --seed=2023 \
+    --gan_gpu_id=0 \
+    --tg_gpu_id=1

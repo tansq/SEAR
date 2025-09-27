@@ -1,0 +1,15 @@
+python adversarial_train.py \
+    --database=nist \
+    --detector=locatenet \
+    --attack=fgsm \
+    --target=0 \
+    --input_size=512 \
+    --detector_weight= \
+    --generator_weight= \
+    --weight_save_path= \
+    --log_file= \
+    --epoch=200 \
+    --batch=2 \
+    --lr=0.0002 \
+    --seed=2021 \
+    --gpu_id=4

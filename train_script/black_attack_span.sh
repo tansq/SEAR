@@ -1,0 +1,17 @@
+python train_dd.py \
+    --database=coverage \
+    --target_model=span \
+    --block_type=vgg \
+    --input_size=512 \
+    --target_weight= \
+    --weight_save_path= \
+    --check_save_path= \
+    --log_file= \
+    --epoch=200 \
+    --batch=1 \
+    --lr=0.0002 \
+    --bce_weight=20 \
+    --hinge_weight=1 \
+    --seed=2021 \
+    --gan_gpu_id=5 \
+    --tg_gpu_id=6
