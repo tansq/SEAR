@@ -66,9 +66,13 @@ We provide the training scripts in `train_script` to train a forensic model (Man
 If you find this useful for your research, please cite the following paper.
 ```bibtex
 @article{SEAR,
-      title={Evading Detection Actively: Toward Anti-Forensics against Forgery Localization}, 
-      author={Zhuo, Long and Luo, Shenghai, and Tan Shunquan, and Chen Han, and Li Bin, and Huang Jiwu},
-      journal   = {},
-      volume    = {},
-      year    = {2023}
+  title={Evading Detection Actively: Toward Anti-Forensics Against Forgery Localization},
+  author={Zhuo, Long and Luo, Shenghai and Tan, Shunquan and Chen, Han and Li, Bin and Huang, Jiwu},
+  journal={IEEE Transactions on Dependable and Secure Computing},
+  volume={22},
+  number={2},
+  pages={852--869},
+  year={2025},
+  publisher={IEEE}
+}
 ```
